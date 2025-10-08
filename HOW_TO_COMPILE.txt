@@ -1,0 +1,76 @@
+% Quick compilation commands for the paper
+
+% ===================================
+% OPTION 1: Use Overleaf (EASIEST - RECOMMENDED)
+% ===================================
+% 1. Go to https://www.overleaf.com
+% 2. Sign up / Log in
+% 3. Click "New Project" → "Upload Project"
+% 4. Upload IDAA_2025_Paper_Draft.tex
+% 5. Click "Recompile"
+% 6. Download PDF from right panel
+
+% ===================================
+% OPTION 2: Local Compilation (Windows PowerShell)
+% ===================================
+% First, install MiKTeX from: https://miktex.org/download
+% Then open PowerShell in this directory and run:
+
+% pdflatex IDAA_2025_Paper_Draft.tex
+% pdflatex IDAA_2025_Paper_Draft.tex
+
+% Run twice to resolve references
+
+% ===================================
+% OPTION 3: Online LaTeX Compiler
+% ===================================
+% Try these free online compilers:
+% - https://latexbase.com
+% - https://www.overleaf.com
+% - https://www.latex4technics.com
+
+% ===================================
+% WHAT YOU NEED
+% ===================================
+% 1. IDAA_2025_Paper_Draft.tex (this file)
+% 2. llncs.cls (Springer LNCS class file)
+%    Download from: https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines
+% 3. LaTeX compiler (pdflatex)
+
+% ===================================
+% EXPECTED OUTPUT
+% ===================================
+% IDAA_2025_Paper_Draft.pdf
+% - ~15 pages
+% - Formatted in Springer LNCS style
+% - Anonymous (no author names)
+% - Ready to submit
+
+% ===================================
+% TROUBLESHOOTING
+% ===================================
+% Error: "llncs.cls not found"
+% → Download llncs.cls and put it in same folder as .tex file
+
+% Error: "Package X not found"
+% → MiKTeX will auto-install packages (click "Yes")
+% → Or use Overleaf (has all packages pre-installed)
+
+% Error: "Undefined control sequence"
+% → Check line number in error message
+% → Usually a typo in LaTeX command
+
+% ===================================
+% AFTER COMPILATION
+% ===================================
+% Check your PDF for:
+% ✓ All pages rendered correctly
+% ✓ Figures visible (if you add any)
+% ✓ Tables formatted properly
+% ✓ Math equations display correctly
+% ✓ References numbered sequentially
+% ✓ No author information visible
+% ✓ Total pages ≤ 15
+
+% Then submit the PDF to:
+% https://myproconf.com/events/index.php?url=idaa-2025

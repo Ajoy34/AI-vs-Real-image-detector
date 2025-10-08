@@ -1,0 +1,79 @@
+# Python Dependencies for AI Image Detection Project
+# For IDAA 2025 Conference Submission
+
+# Core Deep Learning
+torch>=1.13.0
+torchvision>=0.14.0
+
+# Computer Vision Libraries
+opencv-python>=4.7.0
+kornia>=0.6.12
+pillow>=9.4.0
+
+# Wavelet Transform
+pytorch-wavelets>=1.3.0
+PyWavelets>=1.4.1
+
+# Machine Learning
+scikit-learn>=1.2.0
+catboost>=1.1.1
+xgboost>=1.7.3
+
+# Optional (for full novel features)
+git+https://github.com/openai/CLIP.git  # CLIP for semantic consistency
+foolbox>=3.3.3  # Adversarial robustness testing
+
+# Data Processing
+numpy>=1.23.0
+pandas>=1.5.3
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Jupyter Notebooks
+jupyter>=1.0.0
+ipykernel>=6.21.0
+notebook>=6.5.0
+
+# Utilities
+tqdm>=4.64.0
+joblib>=1.2.0
+
+# For Paper Submission
+# (These are optional, only needed if generating figures for paper)
+plotly>=5.13.0
+kaleido>=0.2.1
+
+# Installation Instructions:
+# ========================
+# 
+# Option 1: Install all at once
+# pip install -r requirements.txt
+# 
+# Option 2: Minimal installation (without CLIP/Foolbox)
+# pip install torch torchvision opencv-python kornia pillow pytorch-wavelets scikit-learn catboost xgboost numpy pandas matplotlib seaborn jupyter
+# 
+# Option 3: Kaggle Environment
+# Kaggle already has most packages. Only add:
+# !pip install kornia pytorch-wavelets catboost
+# !pip install git+https://github.com/openai/CLIP.git
+# 
+# GPU Support:
+# ============
+# For CUDA 11.7:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu117
+# 
+# For CUDA 11.8:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+# 
+# For CPU only:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+
+# System Requirements:
+# ===================
+# - Python 3.8 or higher
+# - CUDA 11.7+ (for GPU acceleration, optional)
+# - 8GB RAM minimum (16GB recommended)
+# - 2GB disk space for packages
